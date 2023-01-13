@@ -254,6 +254,7 @@ exec systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec gnome-keyring
 exec nextcloud --background
+exec nm-applet --indicator
 
 # Application shortcuts
 bindsym $mod+F1 exec firefox
