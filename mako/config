@@ -1,0 +1,9 @@
+font=Ubuntu 10
+background-color=#1d2021d2
+border-color=#fe8019
+border-size=1
+border-radius=5
+text-color=#f9f5d7
+text-alignment=left
+icon-path=/usr/share/icons/Papirus-Dark
+default-timeout=6000

@@ -1,0 +1,8 @@
+gtk-theme-name="Gruvbox-Dark-BL"
+gtk-icon-theme-name="Papirus-Dark"
+gtk-font-name="Ubuntu 10"
+gtk-cursor-theme-name="Adwaita"
+gtk-xft-antialias=1
+gtk-xft-hinting=1
+gtk-xft-hintstyle=hintslight
+gtk-xft-rgba=rgb

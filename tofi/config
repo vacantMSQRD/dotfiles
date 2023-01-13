@@ -1,0 +1,16 @@
+text-cursor=true
+fuzzy-match=true
+drun-launch=true
+font="Ubuntu"
+font-size=12
+hint-font=true
+width=360
+height=540
+background-color=#282828
+outline-width=1
+outline-color=#fe8019
+border-width=1
+border-color=#fe8019
+text-color=#ebdbb1
+default-result-color=#ebdbb2
+selection-color=#fe8019
