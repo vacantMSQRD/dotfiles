@@ -1,0 +1,51 @@
+* {
+    font-family: FontAwesome, Ubuntu, Cantarell, sans-serif;
+    font-size: 13px;
+}
+
+window#waybar {
+    background: rgba(29, 32, 33, 0.82);
+    /* background-color: @theme_base_color; */
+    border-bottom: 1px solid @unfocused_borders;
+    color: #f9f5d7;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: #f9f5d7;
+    box-shadow: inset 0 -3px transparent;
+    border: none;
+    border-radius: 0;
+}
+
+#workspaces button:hover {
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 -3px #ffffff;
+}
+
+#workspaces button.focused {
+    background: #1d2021;
+    border-bottom: #fe8019;
+}
+
+#workspaces button.urgent {
+    background-color: #b48ead;
+}
+
+#mode {
+    background-color: #64727d;
+    border-bottom: #f9f5d7;
+}
+
+#mode, #clock, #battery, #cpu, #memory, #disk, #temperature, #network, #backlight, #pulseaudio, #tray, #mode {
+    padding: 0 5px;
+}
+
+#window, #workspaces {
+    margin: 0 2px
+}
